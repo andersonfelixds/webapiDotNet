@@ -15,7 +15,7 @@ namespace webapi.Services
         //public static List<TaxaJuros> GetAll() => TaxaJuros;
         public static string Get()
         {
-            return (string ) "https://github.com/andersonfelixds/Instagram-Auto-Pilot";
+            return (string ) "https://github.com/andersonfelixds/webapiDotNet";
         }
       
     }
