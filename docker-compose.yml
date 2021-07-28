@@ -1,0 +1,13 @@
+version: '3.4'
+
+ services:
+   webapiteste:
+     image: ${DOCKER_REGISTRY-}webapiTest
+     build:
+       context: .
+       dockerfile: webapiTest/Dockerfile
+   webapi:
+    image: ${DOCKER_REGISTRY-}webapi
+    build:
+      context: .
+      dockerfile: webapi/Dockerfile
